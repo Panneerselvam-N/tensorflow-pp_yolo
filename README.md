@@ -30,7 +30,7 @@ pip install -r requirements-gpu.txt
 ### Step - 1 : (Setup "core/config.py file")
 * Modify path of .names file (line 14)
 * Modify number of classes (line 15)
-* Modify path of train.txt file (line 29)
+* Modify path of train.txt file (line 30)
 * Modify other parametrs like batch size, learning rate,etc according to your requirements (Optional)
 
 Use following code to create train.txt file. First need to copy all annotations file and image to 'data/dataset' and then run following code.
