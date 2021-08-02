@@ -25,6 +25,9 @@ def resnet_50(resnet,training=True):
   
   return c3 , c4 , c5
 
+
+
+# This function is under testing , now not included in model
 def resnet_50_last_stage_custom(last_stage_in):
   #modified Resnet50 last stage
   #Block 1
